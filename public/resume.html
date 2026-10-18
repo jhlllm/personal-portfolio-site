@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>林烬 · 前端工程师简历</title>
+<style>
+  :root {
+    --bg: #0B0F1A;
+    --panel: #1c1c1c;
+    --border: #2a2f3a;
+    --ink: #E6EAF2;
+    --dim: #9ca3af;
+    --gold: #b8963e;
+    --gold-bright: #d4af37;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Rajdhani", "Segoe UI", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+    padding: 32px 16px;
+  }
+  .page {
+    max-width: 820px;
+    margin: 0 auto;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 40px 48px;
+  }
+  h1 { font-size: 32px; letter-spacing: 0.15em; text-transform: uppercase; }
+  .title { color: var(--gold-bright); font-family: monospace; letter-spacing: 0.2em; text-transform: uppercase; font-size: 14px; margin-top: 4px; }
+  .meta { color: var(--dim); font-size: 14px; margin-top: 12px; }
+  h2 {
+    font-size: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold);
+    border-bottom: 1px solid var(--border); padding-bottom: 6px; margin: 28px 0 14px;
+  }
+  .item { margin-bottom: 14px; }
+  .item h3 { font-size: 16px; }
+  .item .sub { color: var(--gold-bright); font-size: 14px; }
+  .item .when { color: var(--dim); font-family: monospace; font-size: 12px; }
+  .item p { color: var(--dim); font-size: 14px; margin-top: 4px; }
+  ul { padding-left: 20px; color: var(--dim); font-size: 14px; }
+  li { margin: 4px 0; }
+  @media print {
+    :root { --bg:#fff; --panel:#fff; --border:#ccc; --ink:#111; --dim:#333; --gold:#8a6d2f; --gold-bright:#8a6d2f; }
+    body { background:#fff; padding:0; }
+    .page { border:none; border-radius:0; padding:24px; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <h1>林烬</h1>
+    <p class="title">前端工程师 · UI 工程化方向</p>
+    <p class="meta">中国 · 上海 ｜ ember.lin@example.com ｜ github.com/ember-lin</p>
+
+    <h2>个人简介</h2>
+    <p style="color:var(--dim);font-size:14px;">
+      深耕前端 6 年，擅长 React / TypeScript / Vite 技术栈，专注高性能前端、设计系统与工具链，
+      打造具备金属质感的高性能界面。
+    </p>
+
+    <h2>工作经历</h2>
+    <div class="item">
+      <h3>高级前端工程师 <span class="sub">深空工业科技</span></h3>
+      <p class="when">2022-03 — 至今</p>
+      <p>主导设计系统重构，搭建基于 Vite 的组件库与微前端基础设施；将核心业务首屏性能提升 45%。</p>
+    </div>
+    <div class="item">
+      <h3>前端工程师 <span class="sub">星环数字</span></h3>
+      <p class="when">2020-06 — 2022-02</p>
+      <p>负责数据可视化平台前端，落地 Canvas / WebGL 高性能渲染，支撑百万级数据点实时刷新。</p>
+    </div>
+    <div class="item">
+      <h3>初级前端工程师 <span class="sub">启明软件</span></h3>
+      <p class="when">2019-07 — 2020-05</p>
+      <p>参与电商中后台项目，使用 React + TypeScript 完成订单、商品等模块开发维护。</p>
+    </div>
+
+    <h2>教育背景</h2>
+    <div class="item">
+      <h3>华东理工大学 <span class="sub">本科 · 计算机科学与技术</span></h3>
+      <p class="when">2015-09 — 2019-06</p>
+      <p>主修数据结构、操作系统、计算机网络；连续三年获得校级奖学金。</p>
+    </div>
+
+    <h2>技能</h2>
+    <ul>
+      <li>前端核心：React、TypeScript、JavaScript、HTML/CSS</li>
+      <li>工程化：Vite、Webpack、Node.js、Git</li>
+      <li>样式与设计：Tailwind CSS、CSS3、SVG、Figma</li>
+      <li>工具与其他：Linux、Docker、CI/CD</li>
+    </ul>
+  </div>
+</body>
+</html>
